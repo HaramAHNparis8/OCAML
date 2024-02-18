@@ -1,0 +1,10 @@
+ let rec total l =
+    match l with
+    | [] -> 0
+    | h :: t -> h + total t;;
+
+
+ let rec total1 l =
+    match l with
+    | [] -> 0
+    | h :: t -> h + total1 t;;
